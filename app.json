@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Sofra",
+    "slug": "sofra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.uurstudio.sofra"
+    },
+    "android": {
+      "package": "com.uurstudio.sofra",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png",
+        "backgroundColor": "#ef4444"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "sofra",
+    "backgroundColor": "#fbf7f5",
+    "splash": {
+      "backgroundColor": "#fbf7f5",
+      "resizeMode": "contain",
+      "image": "./assets/splash-icon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const initials = (name: string) => name.trim().split(/\s+/).slice(0, 2).map((p) => p[0]?.toLocaleUpperCase("tr-TR") ?? "").join("");
